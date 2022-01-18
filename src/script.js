@@ -37,7 +37,7 @@ const scene = new THREE.Scene()
 
 /*----Lights----*/
 // Ambient light
-const ambientLight = new THREE.AmbientLight(0xffffff,.85)
+const ambientLight = new THREE.AmbientLight(0xffffff,.6)
 // Point light
 const pointLight = new THREE.PointLight(0xFFFFED, .7, 10)
 pointLight.position.set(2.5, 3, 2)
